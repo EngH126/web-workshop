@@ -34,6 +34,7 @@ setInterval(() => {
   const time = new Date().toLocaleTimeString("zh-CN");
   clockDOM.innerText = `今天是 ${date}，现在是北京时间 ${time}`;
 }, 1000);
+
 // 免费的API测试接口：https://api.vvhan.com/
 const mottoDOM = document.getElementById('motto');
 const getMotto = async (objDOM) => {
